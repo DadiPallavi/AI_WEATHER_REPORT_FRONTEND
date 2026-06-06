@@ -1,6 +1,6 @@
 import streamlit as st
 import requests as rq
-server_url=""
+server_url=st.secrets("screct_ur")
 st.title("AI_WEATHER_FORECASTING")
 city=st.text_input("enter city")
 question=st.text_input("ask your question..")
